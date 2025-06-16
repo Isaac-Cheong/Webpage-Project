@@ -52,44 +52,44 @@ const menuItems = [
     {
         name: "Spicy Beef Noodles",
         description: "Hand-pulled noodles with tender beef in our special mala broth",
-        price: 16.99,
+        price: 14.99,
         category: "Noodles",
         image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/Mala%20Noodle.png"
     },
     {
         name: "Kung Pao Chicken",
         description: "Diced chicken with peanuts, vegetables, and dried chili peppers",
-        price: 18.99,
+        price: 13.00,
         category: "Signature Dishes",
         image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/kung%20pao%20chicken.png"
     },
     {
         name: "Vegetable Spring Rolls",
         description: "Crispy rolls filled with fresh vegetables and served with sweet chili sauce",
-        price: 8.99,
+        price: 5.50,
         category: "Appetizers",
         image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/spring%20roll.jpg"
     },
     {
         name: "Mapo Tofu",
         description: "Silken tofu in a spicy sauce with minced meat and Sichuan peppercorns",
-        price: 15.99,
+        price: 10.99,
         category: "Vegetarian",
         image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/mapo%20tofu.png"
     },
     {
         name: "Chicken Rice",
         description: "Rice and Chicken",
-        price: 20.25,
+        price: 3.50,
         category: "Rice Dishes",
         image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/chicken%20rice.png"
     },
     {
         name: "Tiramisu",
         description: "Classic Italian dessert with espresso-soaked ladyfingers, creamy mascarpone, and a dusting of cocoa.",
-        price: 20.26,
+        price: 14.50,
         category: "Desserts",
-        image_url: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3"
+        image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/tiramisu.png"
     },
 ];
 
