@@ -149,13 +149,13 @@ if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         const formData = new FormData(contactForm);
         const formValues = Object.fromEntries(formData.entries());
-    
+
         if (!formValues.name || !formValues.email || !formValues.message) {
             e.preventDefault();
             alert('Please fill in all fields');
             return;
         }
-    
+
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(formValues.email)) {
             e.preventDefault();
@@ -163,12 +163,12 @@ if (contactForm) {
             return;
         }
     });
-}
 
-window.onload = function() {
-    // Reset the form fields when the page loads
-    document.getElementById("form").reset();
-};
+    // Register this ONCE, outside the submit handler
+    window.addEventListener('pageshow', function() {
+        contactForm.reset();
+    });
+}
 
 
 // Smooth scroll for navigation links
