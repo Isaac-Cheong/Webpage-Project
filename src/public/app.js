@@ -78,12 +78,13 @@ const menuItems = [
         image_url: "https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-4.0.3"
     },
     {
-        name: "Yangzhou Fried Rice",
-        description: "Classic fried rice with eggs, vegetables, and your choice of protein",
-        price: 14.99,
+        name: "Chicken Rice",
+        description: "Rice and Chicken",
+        price: 20.25,
         category: "Rice Dishes",
         image_url: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3"
     }
+
 ];
 
 let currentCategory = 'All';
