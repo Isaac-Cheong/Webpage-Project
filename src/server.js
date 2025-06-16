@@ -8,10 +8,6 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Serve the main HTML file for all routes
-app.get('/thank-you', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'thank-you.html'));
-});
-
 app.get('*', (req, res) => {
     try {
         res.sendFile(path.join(__dirname, 'public', 'index.html'));
