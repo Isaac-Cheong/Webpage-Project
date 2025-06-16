@@ -162,8 +162,6 @@ if (contactForm) {
             alert('Please enter a valid email address');
             return;
         }
-
-        
     });
 }
 
