@@ -47,21 +47,21 @@ const menuItems = [
         description: "Our signature dish featuring a perfect blend of Sichuan peppercorns and chili peppers",
         price: 24.99,
         category: "Hot Pot",
-        image_url: "https://github.com/Isaac-Cheong/Webpage-Project/blob/main/src/images/Mala%20hotpot.png?raw=true"
+        image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/Mala%20hotpot.png"
     },
     {
         name: "Spicy Beef Noodles",
         description: "Hand-pulled noodles with tender beef in our special mala broth",
         price: 16.99,
         category: "Noodles",
-        image_url: "https://github.com/Isaac-Cheong/Webpage-Project/blob/main/src/images/Mala%20Noodle.png?raw=true"
+        image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/Mala%20Noodle.png"
     },
     {
         name: "Kung Pao Chicken",
         description: "Diced chicken with peanuts, vegetables, and dried chili peppers",
         price: 18.99,
         category: "Signature Dishes",
-        image_url: "https://github.com/Isaac-Cheong/Webpage-Project/blob/main/src/images/kung%20pao%20chicken.png?raw=true"
+        image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/kung%20pao%20chicken.png"
     },
     {
         name: "Vegetable Spring Rolls",
