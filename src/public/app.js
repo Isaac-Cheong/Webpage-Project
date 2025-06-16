@@ -85,10 +85,10 @@ const menuItems = [
         image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/chicken%20rice.png"
     },
     {
-        name: "Chocolate Rice",
-        description: "Chocolate and Chicken",
+        name: "Tiramisu",
+        description: "Classic Italian dessert with espresso-soaked ladyfingers, creamy mascarpone, and a dusting of cocoa.",
         price: 20.26,
-        category: "Rice Dishes",
+        category: "Desserts",
         image_url: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3"
     },
 ];
