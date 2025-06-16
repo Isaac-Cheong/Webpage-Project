@@ -75,7 +75,7 @@ const menuItems = [
         description: "Silken tofu in a spicy sauce with minced meat and Sichuan peppercorns",
         price: 15.99,
         category: "Vegetarian",
-        image_url: "https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-4.0.3"
+        image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/mapo%20tofu.png"
     },
     {
         name: "Chicken Rice",
