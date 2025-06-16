@@ -18,6 +18,16 @@
     {
       "src": "/(.*)",
       "dest": "/src/public/$1"
+    },
+    {
+      "src": "/(.*\\.js|.*\\.css|.*\\.png|.*\\.jpg|.*\\.jpeg|.*\\.gif|.*\\.svg|.*\\.ico|.*\\.woff2?|.*\\.ttf|.*\\.eot|.*\\.map)",
+      "dest": "/src/public/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/src/public/index.html"
     }
   ]
+
+  
 } 
