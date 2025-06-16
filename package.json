@@ -5,8 +5,12 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
+<<<<<<< HEAD
     "dev": "nodemon src/server.js",
     "build": "echo 'No build step required'"
+=======
+    "dev": "nodemon src/server.js"
+>>>>>>> 1fc2c4253f050b3dcfc9ee4e3795aab0620a4c96
   },
   "keywords": [
     "restaurant",
@@ -20,8 +24,11 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
+<<<<<<< HEAD
   },
   "engines": {
     "node": ">=14.0.0"
+=======
+>>>>>>> 1fc2c4253f050b3dcfc9ee4e3795aab0620a4c96
   }
 }
