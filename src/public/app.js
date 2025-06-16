@@ -147,19 +147,18 @@ function setupCategoryFilters() {
 const contactForm = document.querySelector('form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
         const formData = new FormData(contactForm);
         const formValues = Object.fromEntries(formData.entries());
-        
-        // Basic form validation
+    
         if (!formValues.name || !formValues.email || !formValues.message) {
+            e.preventDefault();
             alert('Please fill in all fields');
             return;
         }
-
-        // Email validation
+    
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(formValues.email)) {
+            e.preventDefault();
             alert('Please enter a valid email address');
             return;
         }
