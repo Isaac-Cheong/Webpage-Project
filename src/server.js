@@ -8,6 +8,10 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Serve the main HTML file for all routes
+app.get('/thank-you', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'thank-you.html'));
+});
+
 app.get('*', (req, res) => {
     try {
         res.sendFile(path.join(__dirname, 'public', 'index.html'));
@@ -15,10 +19,6 @@ app.get('*', (req, res) => {
         console.error('Error serving index.html:', error);
         res.status(500).send('Error loading the page');
     }
-});
-
-app.get('/thank-you', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'thank-you.html'));
 });
 
 // Error handling middleware
