@@ -47,14 +47,14 @@ const menuItems = [
         description: "Our signature dish featuring a perfect blend of Sichuan peppercorns and chili peppers",
         price: 24.99,
         category: "Hot Pot",
-        image_url: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3"
+        image_url: "https://github.com/Isaac-Cheong/Webpage-Project/blob/main/src/images/Mala%20hotpot.png"
     },
     {
         name: "Spicy Beef Noodles",
         description: "Hand-pulled noodles with tender beef in our special mala broth",
         price: 16.99,
         category: "Noodles",
-        image_url: "https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-4.0.3"
+        image_url: "https://github.com/Isaac-Cheong/Webpage-Project/blob/main/src/images/Mala%20Noodle.png"
     },
     {
         name: "Kung Pao Chicken",
