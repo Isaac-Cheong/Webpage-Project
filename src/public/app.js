@@ -68,7 +68,7 @@ const menuItems = [
         description: "Crispy rolls filled with fresh vegetables and served with sweet chili sauce",
         price: 8.99,
         category: "Appetizers",
-        image_url: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3"
+        image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/spring%20roll.jpg"
     },
     {
         name: "Mapo Tofu",
