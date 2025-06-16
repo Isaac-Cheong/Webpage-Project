@@ -82,7 +82,7 @@ const menuItems = [
         description: "Rice and Chicken",
         price: 20.25,
         category: "Rice Dishes",
-        image_url: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3"
+        image_url: "https://raw.githubusercontent.com/Isaac-Cheong/Webpage-Project/refs/heads/main/src/images/chicken%20rice.png"
     },
     {
         name: "Chocolate Rice",
