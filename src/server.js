@@ -17,6 +17,10 @@ app.get('*', (req, res) => {
     }
 });
 
+app.get('/thank-you', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'thank-you.html'));
+});
+
 // Error handling middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);
@@ -26,7 +30,7 @@ app.use((err, req, res, next) => {
 // Start the server if not in production
 if (process.env.NODE_ENV !== 'production') {
     app.listen(PORT, () => {
-        console.log(`Server is running on port ${PORT}`);
+        console.log(`Server is running on port http://localhost:${PORT}`);
     });
 }
 
