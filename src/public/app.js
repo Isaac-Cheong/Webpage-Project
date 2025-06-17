@@ -296,3 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
     displayMenuItems();
     setupCategoryFilters();
 }); 
+
+
+
+
